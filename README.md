@@ -33,6 +33,8 @@ The analysis of the VGG-19 model and how it works is beyond the scope for practi
 
 For optimizing the model, I used the adam optimizer. Adam optimizer stands for adaptive moment estimation, and it is a decent optimizer for doing image processing, image classification, and of course, neural style transfer.
 
+You could also tune learning rate for adam optimizer, but for this model, I think changing the epochs and step_per_epoch could achieve a better effect.
+
 ## 3. Process the images
 There is no need to pre-process the image, as I included the load_img function that could help with resizing and transferring the image into a tensor. However, it is recommended for users to deal with the noisy part of the images (e.g. a dark tree in a really bright garden) so that neural style transfer would achieve a better effect.
 
