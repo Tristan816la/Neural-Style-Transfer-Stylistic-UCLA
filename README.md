@@ -12,7 +12,7 @@ Tensorflow offers a really good tutorial on neural style transfer, and this proj
 
 There actually are a lot of other tutorials on neural style transfer and how to use the VGG-19 model, but what they usually don't mention is how to tune the hyperparameters, how to use this model, and the math and CS insights behind this model. What I would like to share next was the logic behind my code, and the experience I got from experimenting my code.
 
-# 1. Hyperparameters
+## 1. Hyperparameters
 1) Content layers & Style layers:
 For a neural network, the rudimentary layers are used for detecting small features like an small edge of an object and some small color points. So, we usually only choose the later layers that has the big picture of the image and from which we would know what was on the image. 
 
@@ -27,16 +27,16 @@ More epochs would take more time to train this model but could help achieve a de
 4) Total Variation Weight:
 This is the hyperparameter to reduce the noisy effect on your synthesized picture. It is used to achieve a regularization effect. (For content image with more color variation, I recommend increase this weight)
 
-# 2. VGG-19 Model
+## 2. VGG-19 Model
 (For doing neural style transfer, It is convention for people to use VGG-19 instead of VGG-16, which are used more widely.)
 The analysis of the VGG-19 model and how it works is beyond the scope for practical purposes, so in the folder I include the paper of this model's author as reference.
 
 For optimizing the model, I used the adam optimizer. Adam optimizer stands for adaptive moment estimation, and it is a decent optimizer for doing image processing, image classification, and of course, neural style transfer.
 
-# 3. Process the images
+## 3. Process the images
 There is no need to pre-process the image, as I included the load_img function that could help with resizing and transferring the image into a tensor. However, it is recommended for users to deal with the noisy part of the images (e.g. a dark tree in a really bright garden) so that neural style transfer would achieve a better effect.
 
 For choosing images, I recommend using images with less variation in color, for both style and content images to achieve a better effect. 
 
-# 4. Synthesized images
+## 4. Synthesized images
 Some samples of synthesized images are already in the folder-- "transferred images", and you could definitely check them to see if you came up with better insights to train this model and do hyperparameter tuning.
