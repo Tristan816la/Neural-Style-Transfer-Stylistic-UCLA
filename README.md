@@ -29,7 +29,7 @@ This is the hyperparameter to reduce the noisy effect on your synthesized pictur
 
 ## 2. VGG-19 Model
 (For doing neural style transfer, It is convention for people to use VGG-19 instead of VGG-16, which are used more widely.)
-The analysis of the VGG-19 model and how it works is beyond the scope for practical purposes, so in the folder I include the paper of this model's author as reference.
+The analysis of the VGG-19 model and how it works is beyond the scope for practical purposes.
 
 For optimizing the model, I used the adam optimizer. Adam optimizer stands for adaptive moment estimation, and it is a decent optimizer for doing image processing, image classification, and of course, neural style transfer.
 
