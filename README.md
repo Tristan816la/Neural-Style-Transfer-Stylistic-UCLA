@@ -16,7 +16,7 @@ There actually are a lot of other tutorials on neural style transfer and how to 
 1) Content layers & Style layers:
 For a neural network, the rudimentary layers are used for detecting small features like an small edge of an object and some small color points. So, we usually only choose the later layers that has the big picture of the image and from which we would know what was on the image. 
 
-For content layer, I recommend using 'block5_conv2' or 'block5_conv3'. And I usually don't tune style layers. By implementing the "load VGG-19" model section, you would see a prediction based on the layer you choose, which includes the top-5 probabilities of the item in your image. If you find it truly accurate, you can then change the content layer to make it do a better prediction.
+- For content layer, I recommend using 'block5_conv2' or 'block5_conv3'. And I usually don't tune style layers. By implementing the   "load VGG-19" model section, you would see a prediction based on the layer you choose, which includes the top-5 probabilities of the item in your image. If you find it truly accurate, you can then change the content layer to make it do a better prediction.
 
 2) Style-weight and Content-weight:
 These are used to tune the proportion of the effects of your content or style images on your synthesized image. Usually the style weight is at e-2 range, and the content weight is at e4 range
