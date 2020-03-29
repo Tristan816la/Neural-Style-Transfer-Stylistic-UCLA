@@ -40,5 +40,5 @@ For choosing images, I recommend using images with less variation in color, for 
 
 ## 4. Synthesized images
 Some samples of synthesized images are already in the folder-- "transferred images", and you could definitely check them to see if you came up with better insights to train this model and do hyperparameter tuning.
-<img src = "Neural_Style_Transfer/readme pic"></img>
-<img src = "Neural_Style_Transfer/Royce"></img>
+<img src = "Neural_Style_Transfer/Readme pic">
+<img src = "Neural_Style_Transfer/Royce">
