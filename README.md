@@ -1,7 +1,8 @@
 # Neural-Style-Transfer-Stylistic-UCLA
 
 ## Image Gallery:
-
+<img src = "Neural_Style_Transfer/Colored Royce.png" width = "300">
+<img src = "Neural_Style_Transfer/Transferred Images/ Royce_front.png" width = "300">
 ## Description:
 (Notice: This readme is about my insights on how to implement neural style transfer. If you have already known the key steps for implementing this model, it's not necessary for you read this readme but go directly using the model.
 
