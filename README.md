@@ -1,8 +1,10 @@
 # Neural-Style-Transfer-Stylistic-UCLA
 
 ## Image Gallery:
-<img src = "Neural_Style_Transfer/Colored Royce.png" width = "200">
-<img src = "Neural_Style_Transfer/Transferred Images/Colorful Corridor.png" width = "200">
+Royce | Corridor 
+:-------------------------:|:-------------------------:
+<img src = "Neural_Style_Transfer/Colored Royce.png" width = "200"> <img src = "Neural_Style_Transfer/Transferred Images/Colorful Corridor.png" width = "200">
+
 <img src = "Neural_Style_Transfer/Transferred Images/Royce_front.png" width = "200">
 <img src = "Neural_Style_Transfer/Transferred Images/Sculpture garden.png" width = "200">
 <img src = "Neural_Style_Transfer/Transferred Images/Veranda.png" width = "200">
