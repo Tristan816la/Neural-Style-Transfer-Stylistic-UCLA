@@ -1,5 +1,7 @@
 # Neural-Style-Transfer-Stylistic-UCLA
 
+## Image Gallery:
+
 (Notice: This readme is about my insights on how to implement neural style transfer. If you have already known the key steps for implementing this model, it's not necessary for you read this readme but go directly using the model.
 
 This model uses tensorflow 2.
